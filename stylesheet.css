@@ -1,0 +1,50 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 200px;
+    width: 100%;
+}
+.row1{
+    height: 150px;
+    width: 100%;
+}
+.col1{
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+.col2{
+    height: 150px;
+    width: calc(100% - 150px);
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: white;
+}
+.row2{
+    height: 50px;
+    width: 100%;
+    background-color:darkslategray ;
+    text-align: center;
+}
+ul li{
+    display: inline;
+    margin: 80px;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    color: antiquewhite;
+    top: 15px;
+}
+
+ul li a{
+    color: black;
+    padding: 50px;
+}
+ul li a.hover{
+    color: aliceblue;
+}
